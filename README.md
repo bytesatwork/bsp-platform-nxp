@@ -7,7 +7,7 @@ simplify the build procedure for byteDEVKIT IMX8MM by [bytes at work AG](https:/
 
 Use repo to download all necessary repositories:
 
-	repo init -u https://github.com/bytesatwork/bsp-platform-nxp.git -b dunfell
+	repo init -u https://github.com/bytesatwork/bsp-platform-nxp.git -b kirkstone
 	repo sync
 
 When these commands are completed successfully, the following command will setup a
