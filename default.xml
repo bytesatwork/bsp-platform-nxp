@@ -9,14 +9,14 @@
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="0efe15c5ba29ba4d8599b5d151e6e8ffbf9b253d" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="90f519b0f053af1309ef6d31119001a1dce90537" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe" revision="4a7bb77f7ebe0ac8be5bab5103d8bd993e17e18d" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="intel-iot" revision="f6af4b67f2a6abdfb7b97e15fca6899e322c8157" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="yocto" revision="c5627ab06fc07221237b9a7059ac378ea80578f8" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="14e6dfccd074dc47c2a6776cbfb2070e46d3072b" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe" revision="1235dd4ed4a57e67683c045ad76b6a0f9e896b45" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot" revision="7e8ce5ed80fd950d09cb9f78ee039c3c35f2bcff" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
   <project remote="qt5" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="bytesatwork" revision="83f033c2cb43b6ed6c0a707a81a88e45db71f7b1" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="0115f5094cb576f8c2afdb399659729b14a93e67" name="meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
-  <project remote="bytesatwork" revision="9b3a25ddf9c082e2bb4311cb0df66866dbb9acae" name="bsp-base-nxp" path="sources/base">
+  <project remote="bytesatwork" revision="363b71e84099ae91b55ded22788942e0eb960112" name="meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
+  <project remote="bytesatwork" revision="7e88afeda5ce197da85dfaf31d05dba6217ac769" name="bsp-base-nxp" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
