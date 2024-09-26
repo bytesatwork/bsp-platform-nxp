@@ -22,3 +22,6 @@ The final command builds a minimal image:
 The output is found in:
 
 	tmp/deploy/images/bytedevkit-imx8mp
+
+## Note
+The software provided is optimized for development convenience and is not suitable for use in production.
