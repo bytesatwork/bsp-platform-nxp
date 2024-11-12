@@ -9,13 +9,13 @@
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="0efe15c5ba29ba4d8599b5d151e6e8ffbf9b253d" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="dce4163d42f7036ea216b52b9135968d51bec4c1" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="90f519b0f053af1309ef6d31119001a1dce90537" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe" revision="4a7bb77f7ebe0ac8be5bab5103d8bd993e17e18d" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="intel-iot" revision="f6af4b67f2a6abdfb7b97e15fca6899e322c8157" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="oe" revision="2e3126c9c16bb3df0560f6b3896d01539a3bfad7" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot" revision="7e8ce5ed80fd950d09cb9f78ee039c3c35f2bcff" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
   <project remote="qt5" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="bytesatwork" revision="83f033c2cb43b6ed6c0a707a81a88e45db71f7b1" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="0115f5094cb576f8c2afdb399659729b14a93e67" name="meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
+  <project remote="bytesatwork" revision="7763513768b4ed27f2db25baeb3ff4af81ab7e07" name="meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
   <project remote="bytesatwork" revision="9b3a25ddf9c082e2bb4311cb0df66866dbb9acae" name="bsp-base-nxp" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
