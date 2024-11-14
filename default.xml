@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="kirkstone"/>
+  <default sync-j="4" revision="scarthgap"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
@@ -9,13 +9,13 @@
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="09def309f91929f47c6cce386016ccb777bd2cfc" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="270f0f6f046187036716aedcae0636011172b447" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe" revision="571e36e20e9d1f27af0eb4545291beeb64f280e2" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="intel-iot" revision="65e2c5b2e5cb33760b2deb0fc249ab43ebdf08ef" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="qt5" revision="aec1934cb2708236c033f2d205d5c3fbbebf7555" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="bytesatwork" revision="13709916516470d2eea2c104ccaa633c21ff90d7" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="f532054389d215ade272d34fa28385aac21b540e" name="meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
+  <project remote="yocto" revision="dce4163d42f7036ea216b52b9135968d51bec4c1" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="14e6dfccd074dc47c2a6776cbfb2070e46d3072b" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe" revision="2e3126c9c16bb3df0560f6b3896d01539a3bfad7" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot" revision="7e8ce5ed80fd950d09cb9f78ee039c3c35f2bcff" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="qt5" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="bytesatwork" revision="83f033c2cb43b6ed6c0a707a81a88e45db71f7b1" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" revision="4b997499354b002f5fcdbeec8787da366b09490a" name="meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
   <project remote="bytesatwork" revision="f75c3cc3afca8b2322183c8919f0f05ae0587dbe" name="bsp-base-nxp" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>

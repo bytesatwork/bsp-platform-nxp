@@ -1,13 +1,13 @@
-# bytes at work AG BSP platform manifest for IMX8MM based modules
+# bytesatwork BSP platform manifest for IMX8MM based modules
 
 This repository contains the manifest for [repo](https://source.android.com/setup/develop/repo) and is intended to
-simplify the build procedure for byteDEVKIT IMX8MM by [bytes at work AG](https://www.bytesatwork.io).
+simplify the build procedure for byteDEVKIT IMX8MM by [bytesatwork](https://www.bytesatwork.io).
 
 ## Usage
 
 Use repo to download all necessary repositories:
 
-	repo init -u https://github.com/bytesatwork/bsp-platform-nxp.git -b kirkstone
+	repo init -u https://github.com/bytesatwork/bsp-platform-nxp.git -b scarthgap-imx8mm
 	repo sync
 
 When these commands are completed successfully, the following command will setup a
