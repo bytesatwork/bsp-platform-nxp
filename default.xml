@@ -15,7 +15,7 @@
   <project remote="intel-iot" revision="7e8ce5ed80fd950d09cb9f78ee039c3c35f2bcff" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
   <project remote="qt5" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="bytesatwork" revision="83f033c2cb43b6ed6c0a707a81a88e45db71f7b1" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="363b71e84099ae91b55ded22788942e0eb960112" name="meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
+  <project remote="bytesatwork" revision="7fd82cee74ba05f170a2b91583f45d711a63bffb" name="meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
   <project remote="bytesatwork" revision="7e88afeda5ce197da85dfaf31d05dba6217ac769" name="bsp-base-nxp" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
