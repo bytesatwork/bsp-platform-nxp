@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="scarthgap"/>
+  <default sync-j="4" revision="wrynose"/>
 
   <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="https://github.com/" name="github"/>
+  <remote fetch="https://git.openembedded.org/" name="openembedded"/>
 
-  <project remote="yocto" revision="72983ac391008ebceb45edc7a8f0f6d5f4fe715c" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="902dde8c5bd29bb507ac8d37772565a6c9ab77cd" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="github" revision="2759d8870ea387b76c902070bed8a6649ff47b56" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="github" revision="160081f4baed50d5221e310bfc12f46a7c299348" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="github" revision="9ae2fe2696b10f5dc4253c4f467dc388139860bd" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
-  <project remote="github" revision="9a2aa948fefaed65fc08f13f7426b899ded0e356" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="github" revision="10a14a037b4bcd7de8d63570cfc20ed47468ea17" name="bytesatwork/meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
-  <project remote="github" revision="8da5a8caa1420bebdcf258196318885a44ba8985" name="bytesatwork/bsp-base-nxp" path="sources/base">
+  <project remote="openembedded" revision="acfe02fa38b5da9e6a36c6cedcf91d4fcbefbfbd" name="bitbake" path="sources/bitbake"/>
+  <project remote="openembedded" revision="f7397af248e1e338929d70a910b0fbc2341528ec" name="openembedded-core" path="sources/openembedded-core"/>
+  <project remote="yocto" revision="1b132647002eea43a2c7a7f857f63f42dacbc26c" name="meta-yocto" path="sources/meta-yocto"/>
+  <project remote="github" revision="14282a02be9c74a1276a7cda7d6c89e054699a11" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="github" revision="07a99ae241acd488a2feda1ededf87dc70dfde80" name="Wind-River/meta-secure-core.git" path="sources/meta-secure-core"/>
+  <project remote="github" revision="ab3b8dae145aa928b60039171d860f966867b1c3" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="github" revision="cf98b07697c541d4b47f433c1a18cd406cd7917c" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="1ece808633bda098586e023fb868cd98aa78a42e" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="yocto" revision="daf64cce6088b61d73cce6b9f15e017705e93a9a" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="github" revision="46823a948d3e02b238d2295e2d6541c24224e08f" name="bytesatwork/meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
+  <project remote="github" revision="117ba3b1cbd84ece5761065d18b3c0e319c9f3c3" name="bytesatwork/bsp-base-nxp" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>

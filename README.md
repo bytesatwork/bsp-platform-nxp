@@ -12,7 +12,7 @@ simplify the build procedure for the following devkits by [bytesatwork](https://
 
 Use repo to download all necessary repositories:
 
-	repo init -u https://github.com/bytesatwork/bsp-platform-nxp.git -b scarthgap
+	repo init -u https://github.com/bytesatwork/bsp-platform-nxp.git -b wrynose
 	repo sync
 
 When these commands are completed successfully, the following command will setup a
