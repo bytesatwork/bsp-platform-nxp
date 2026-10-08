@@ -16,7 +16,7 @@
   <project remote="github" revision="cf98b07697c541d4b47f433c1a18cd406cd7917c" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
   <project remote="github" revision="1ece808633bda098586e023fb868cd98aa78a42e" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
   <project remote="yocto" revision="daf64cce6088b61d73cce6b9f15e017705e93a9a" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="github" revision="46823a948d3e02b238d2295e2d6541c24224e08f" name="bytesatwork/meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
+  <project remote="github" revision="dff916b093ff4b3a922eee89e5c52ed0acbe7910" name="bytesatwork/meta-bytesatwork-nxp" path="sources/meta-bytesatwork-nxp"/>
   <project remote="github" revision="117ba3b1cbd84ece5761065d18b3c0e319c9f3c3" name="bytesatwork/bsp-base-nxp" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
